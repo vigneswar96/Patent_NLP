@@ -1,7 +1,7 @@
 # Patent_NLP
 This is a work repository. Specifically for documenting the daily thesis work. 
 
-###########################################################################################################
+####################################################################################################
 
 
 What are the advancements made so far in this area? 
