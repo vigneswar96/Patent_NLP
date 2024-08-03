@@ -48,6 +48,16 @@ Word2Vec or FastText for creating word embeddings specific to patent language
 Constructing knowledge graphs from patent data
 Graph neural networks for patent similarity and recommendation
 
+# What are the models used here? 
+
+BERT
+The model uses 
+
+Paecter
+
+
+
+
 
 
 # Challenges:
