@@ -46,7 +46,6 @@ Attention mechanisms for focusing on relevant parts of patent text
 
 
 
-
 # Unsupervised Learning:
 
 Topic modeling techniques like Latent Dirichlet Allocation (LDA) for identifying key themes in patent documents
@@ -60,8 +59,30 @@ Graph neural networks for patent similarity and recommendation
 
 # What are the models used here? 
 
-BERT
-The model uses 
+## BERT
+
+### CustomLayers: 
+BertModelLayer: Wraps a BERT model for use in the Keras framework. 
+ReshapeLayer: Reshapes input tensors
+Attentionlayers: Implements an attention mechanism. 
+Crossattenstion: Implements cross-attention between two sequences. 
+ResidualBlock: Creates a residual connection in the network. 
+
+### Model architecture
+1) Inputs: Separate input layers for patent and standard documents, including input IDs and attention masks.
+2) BERT Embeddings: Both patent and standard inputs are passed though BERT models to get embeddings.
+3) Cross-attention: Applied between patent and standard embeddings to cature relationships.
+4) Pooling : Uses max pooling, average pooling, and attention-based pooling on the combined embeddings.
+5) Dense Layers: Multiple dense layers with residual connections and dropout for further processing.
+6) Ouput: A single sigmoid output, suggesting a binray classification task.
+
+### Model Creation
+The create_model function sets up this architecture using the custom layers and Keras functional API. 
+
+### Optimizations
+1) Uses Adam optimizer with a learning rate schedule(Exponential Decay).
+2) Copiled with binary crossentropy and accuracy metric.
+
 
 Paecter
 
