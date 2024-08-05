@@ -44,19 +44,6 @@ Domain-specific word embeddings trained on patent corpora
 Long Short-Term Memory (LSTM) networks for sequential data processing
 Attention mechanisms for focusing on relevant parts of patent text
 
-
-
-# Unsupervised Learning:
-
-Topic modeling techniques like Latent Dirichlet Allocation (LDA) for identifying key themes in patent documents
-Word2Vec or FastText for creating word embeddings specific to patent language
-
-
-# Graph-based Approaches:
-
-Constructing knowledge graphs from patent data
-Graph neural networks for patent similarity and recommendation
-
 # What are the models used here? 
 
 ## BERT
