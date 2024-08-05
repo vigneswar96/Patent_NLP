@@ -76,6 +76,11 @@ ResidualBlock: Creates a residual connection in the network.
 5) Dense Layers: Multiple dense layers with residual connections and dropout for further processing.
 6) Ouput: A single sigmoid output, suggesting a binray classification task.
 
+![Alt text](./IMages/Model.JPG)
+
+
+![Alt text](./IMages/Modelinfo.JPG)
+
 ### Model Creation
 The create_model function sets up this architecture using the custom layers and Keras functional API. 
 
