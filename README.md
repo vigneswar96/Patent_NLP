@@ -85,7 +85,7 @@ Work is ongoing.
 
 What are the advantages ? 
 
-THe advantage is that no need of manual chunking. 
+The advantage is that this was trained on patent corpus. 
 
 
 
