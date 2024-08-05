@@ -84,8 +84,16 @@ The create_model function sets up this architecture using the custom layers and 
 2) Copiled with binary crossentropy and accuracy metric.
 
 
-Paecter
+I know what you are thinking? How could we capture the relationships between words when we have divided them into chunks of text. THe semantic meaning would be different when we do this part. 
+In order to solve this probelm why don't we chunk by sentences instead of manual chunking of text. When looking at this what we found is paecter. 
 
+## Paecter( basically a sentence transformer trained on patent corpus)
+
+Work is ongoing. 
+
+What are the advantages ? 
+
+THe advantage is that no need of manual chunking. 
 
 
 
