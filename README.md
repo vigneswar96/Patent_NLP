@@ -3,6 +3,16 @@ This is a work repository. Specifically for documenting the daily thesis work.
 
 #######################################################################################
 
+# How was the data downloaded? 
+The data was downloaded from 
+1) [ IPR ETSI](https://ipr.etsi.org/DynamicReporting.aspx)
+   Provides the csv file where the patents and standard mappings are found.
+   We need to do some EDA to obtain the data required for download.
+
+2) [USPTO](https://ppubs.uspto.gov/pubwebapp/) and [Google Patents](https://patents.google.com/)
+
+Webscraping and webautomation using selenium was used. These scripts can be found in weautomation directory. 
+
 
 What are the advancements made so far in this area? 
 
