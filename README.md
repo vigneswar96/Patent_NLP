@@ -11,7 +11,7 @@ The data was downloaded from
 
 2) [USPTO](https://ppubs.uspto.gov/pubwebapp/) and [Google Patents](https://patents.google.com/)
 
-Webscraping and webautomation using selenium was used. These scripts can be found in weautomation directory. 
+Webscraping and webautomation using selenium was used. These scripts can be found in webautomation directory. 
 
 
 What are the advancements made so far in this area? 
